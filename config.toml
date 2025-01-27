@@ -1,0 +1,47 @@
+baseURL = "https://physlion.com"
+buildExpired = true
+buildFuture = true
+hasCJKLanguage = true
+languageCode = "zh-CN"
+title = "Physlion's Blog"
+theme = "hugo-theme-texify"
+
+[author]
+email = "physlion@sina.com"
+name = "physlion"
+
+[markup.highlight]
+lineNos = true
+style = "monokailight"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/"
+weight = 1
+
+[permalinks]
+posts = "/:year/:month/:day/:filename/"
+
+[params]
+customCSS = ["css/custom.css"]
+description = "Physlion's Blog"
+footnote = """
+Follow me on ......, 也没啥必要follow我, 我只是在胡言乱语
+"""
+since = 2024
+emphasisWithDots = true
+toc = true
+
+[params.math]
+enable = true
+use = "katex"
+

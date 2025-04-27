@@ -3,7 +3,7 @@
 title: "From P"
 date: "2016-02-05"
 type: "post"
-tags: ["mark down"]
+tags: ["easy"]
 comment: true
 
 ---
